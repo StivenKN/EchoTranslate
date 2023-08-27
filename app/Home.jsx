@@ -1,6 +1,6 @@
 import { InitialCard } from './initialCard'
 
-export const Home = async () => {
+export default function Home () {
   return (
     <main className='grid h-screen place-content-center'>
       <InitialCard />
