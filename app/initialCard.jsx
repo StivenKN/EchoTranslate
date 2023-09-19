@@ -12,7 +12,7 @@ export const InitialCard = () => {
       <CardHeader className='text-lg font-bold'>Bienvenido. ¿Qué desea hacer?</CardHeader>
       <Divider />
       <CardBody className='flex flex-col gap-2'>
-        <Button as={Link} href='/' color='secondary' variant='ghost' startContent={<TbMessageLanguage />}>
+        <Button as={Link} href='/detect-language' color='secondary' variant='ghost' startContent={<TbMessageLanguage />}>
           Detectar idioma
         </Button>
         <Button as={Link} href='/translate' color='success' variant='ghost' startContent={<BsTranslate />}>

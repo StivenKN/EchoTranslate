@@ -18,7 +18,7 @@ export const NavbarComponent = ({ actualLink }) => {
                 </Link>
               </NavbarItem>
               <NavbarItem>
-                <Link isBlock color='foreground' href='/'>
+                <Link isBlock color='foreground' href='/detect-language'>
                   Detectar idioma
                 </Link>
               </NavbarItem>
@@ -32,7 +32,7 @@ export const NavbarComponent = ({ actualLink }) => {
                 </Link>
               </NavbarItem>
               <NavbarItem isActive>
-                <Link href='/'>
+                <Link href='/detect-language'>
                   Detectar idioma
                 </Link>
               </NavbarItem>
